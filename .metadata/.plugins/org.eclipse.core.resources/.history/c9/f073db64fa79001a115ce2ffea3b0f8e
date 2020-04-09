@@ -1,0 +1,17 @@
+package com.gp.patterns.factory;
+
+public class PizzaStore {
+	
+	public Pizza orderPizza(String type){
+		Pizza p=null;
+		if(type.equals("cheese")){
+			p=new CheesePizza();
+		}else if(type.equals("cheese")){
+			p=new CheesePizza();
+		}else if(type.equals("cheese")){
+			p=new CheesePizza();
+		}
+	
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.gp.patterns.singleton;
+
+public class DateUtil {
+	
+	private static DateUtil instance;
+	s
+	private DateUtil(){
+		
+	}
+	
+	public static DateUtil getInstance(){
+		instance=new DateUtil();
+		return instance;
+		
+	}
+
+}

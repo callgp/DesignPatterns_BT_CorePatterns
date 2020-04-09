@@ -1,0 +1,5 @@
+package com.bharath.patterns.abstractFactory;
+
+public Abstract class DaoAbstractFactory {
+public abstract Dao createDao();
+}

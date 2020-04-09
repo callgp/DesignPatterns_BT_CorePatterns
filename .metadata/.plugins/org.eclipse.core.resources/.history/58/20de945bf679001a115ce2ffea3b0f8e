@@ -1,0 +1,5 @@
+package com.gp.patterns.factory;
+
+public interface Pizza {
+
+}

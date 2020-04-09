@@ -1,0 +1,11 @@
+package com.bharath.patterns.abstractFactory;
+
+public class XMLDaoFactory extends DaoAbstractFactory {
+
+	@Override
+	public Dao createDao(String type) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

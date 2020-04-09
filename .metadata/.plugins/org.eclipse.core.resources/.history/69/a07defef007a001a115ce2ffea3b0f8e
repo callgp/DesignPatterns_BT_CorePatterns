@@ -1,0 +1,9 @@
+package com.bharath.patterns.abstractFactory;
+
+public class DaoFactoryProducer {
+	
+	public static DaoAbstractFactory produce(String factoryType){
+		DaoAbstractFactory daf=null;
+	}
+
+}

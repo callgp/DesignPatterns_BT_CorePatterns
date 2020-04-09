@@ -1,0 +1,16 @@
+package com.gp.patterns.singleton;
+
+import java.io.ObjectOutputStream;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		DateUtil dateUtil1=DateUtil.getInstance();
+		ObjectOutputStream oos=new ObjectOutputStream(new File(""));
+		
+		DateUtil dateUtil2=DateUtil.getInstance();
+		System.out.println(dateUtil1==dateUtil2);
+	}
+
+}
