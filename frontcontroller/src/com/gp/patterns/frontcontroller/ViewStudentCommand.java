@@ -11,6 +11,7 @@ public class ViewStudentCommand implements Command {
 		
 		StudentVO vo = new StudentVO(1,"Bob");
 		request.setAttribute("studentDetails", vo);
+		System.out.println("04212020 at 208pm");
 		return "showStudentDetails";
 	}
 
