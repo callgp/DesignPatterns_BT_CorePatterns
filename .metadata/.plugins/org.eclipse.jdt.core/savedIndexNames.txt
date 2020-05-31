@@ -62,7 +62,6 @@ INDEX VERSION 1.130+C:\Users\gp\workspace_neon_04072020_bt_design_patterns\.meta
 601740504.index
 2612046683.index
 2090482743.index
-3971829705.index
 30881555.index
 1061945583.index
 4013218907.index
